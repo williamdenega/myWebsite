@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+    
+  <head>
+    <title>My Website</title> 
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-  <head><title>My Website</title> </head>
+  
+  </head>
   <body>
-    <script src="script.js"></script>
-    <h1>Welcome to MY </h1>
+    
+
+
+    
+    <div class="wrapper">
+
+      <ul class='tabs'>
+          <li data-tab-target="#home" class="tab">HOME</li>
+          <li data-tab-target="#game"class="tab">GAME</li>
+          <li data-tab-target="#github"class="tab">GITGUB</li>
+      </ul>
+
+      <div class="tab-content">
+        
+        <div id='home' data-tab-content class="active">
+          <h1 class='hello' >WELCOME HOME</h1>
+          <p>hello world</p>
+
+        </div>
+
+        <div  id='game' data-tab-content>
+            <h1 class='hello' >SHEEESHHHHH</h1>
+            <p>gg tom brady</p>
+
+        </div>
+
+        <div  id='github' data-tab-content>
+            <h1 class='hello'>LINK TO GITHUB</h1>
+            <p>google.com</p>
+        </div>
+
+      </div>
+
+
+    </div>
+    
 
 
   </body>
